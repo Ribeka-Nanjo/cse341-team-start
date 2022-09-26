@@ -7,7 +7,8 @@ routes.use(
 	"/",
 	(docData = (req, res) => {
 		let docData = {
-			documentationURL: "",
+			documentationURL:
+				"https://github.com/Ribeka-Nanjo/cse341-team-start-docs",
 		};
 		res.send(docData);
 	})
