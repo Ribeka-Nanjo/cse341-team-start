@@ -5,14 +5,15 @@
 	"main": "index.js",
 	"scripts": {
 		"start": "nodemon index.js",
-		"test": "echo \"Error: no test specified\" && exit 1"
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"swagger": "node ./swagger.js"
 	},
 	"repository": {
 		"type": "git",
 		"url": "git+https://github.com/Ribeka-Nanjo/cse341-team-start.git"
 	},
 	"keywords": [],
-	"author": "",
+	"author": "Ribeka Nanjo",
 	"license": "ISC",
 	"bugs": {
 		"url": "https://github.com/Ribeka-Nanjo/cse341-team-start/issues"
@@ -24,9 +25,9 @@
 		"express": "^4.17.1",
 		"mongoose": "^6.0.14",
 		"nodemon": "^2.0.15",
-		"swagger-ui-express": "^4.3.0"
+		"swagger-ui-express": "^4.5.0"
 	},
 	"devDependencies": {
-		"swagger-autogen": "^2.19.0"
+		"swagger-autogen": "^2.22.0"
 	}
 }
